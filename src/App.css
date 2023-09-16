@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+Ans{
+  background-color: blue;
+}
+
+body{
+  background-color: black;
+}
+
+.num{
+  background-color: rgb(155, 244, 226);
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: large;
+  /* margin: 8px 8px 8px 8px; */
+}
+.ope{
+  background-color: rgba(74, 144, 218, 0.622);
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: large;
+  /* margin: 8px 8px 8px 8px; */
+}
+
+#eq{
+  font-weight: bolder;
+  font-size: larger;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  
+}
+
+#dl{
+  font-weight: bolder;
+  font-size: larger;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+#nums{
+  display: flex;
+  width: 332px;
+  height: 280px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:baseline;
+  margin: 8px 8px 8px 8px;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  height: 280px;
+}
+
+#cl{
+  font-weight: bolder;
+  font-size: larger;
+  width: 432px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 8px 8px 8px 8px;
+}
+
+#opes{
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-around;
+  /* color: rgb(30, 221, 255); */
+}
+
+#whole{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
 }
