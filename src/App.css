@@ -37,8 +37,17 @@
   }
 } */
 
+
+button:hover{
+  transform: scale(1.1, 1.1);
+}
+button:active{
+  transform: scale(1, 1);
+}
+
+
 #header{
-  color: rgb(232, 59, 59);
+  color: rgb(217, 136, 48);
   text-align: center;
   font-size: 60px;
 }
@@ -51,17 +60,21 @@ body{
   background-color: black;
 }
 
+
+
 .num{
   background-color: rgb(155, 244, 226);
   height: 60px;
   width: 100px;
+  border: 2px solid rgb(211, 89, 89);
   border-radius: 10px;
   font-weight: bolder;
   font-size: large;
   /* margin: 8px 8px 8px 8px; */
 }
 .ope{
-  background-color: rgba(74, 144, 218, 0.622);
+  background-color: rgba(74, 144, 218, 0.84);
+  border: 1px solid rgb(155, 244, 226);
   height: 60px;
   width: 100px;
   border-radius: 10px;
@@ -71,6 +84,7 @@ body{
 }
 
 #eq{
+  border: 2px solid rgb(211, 89, 89);
   font-weight: bolder;
   font-size: larger;
   height: 60px;
@@ -80,7 +94,8 @@ body{
 }
 
 #dl{
-  background-color: rgb(227, 96, 96);
+  /* background-color: rgb(227, 96, 96); */
+  border: 2px solid rgb(211, 89, 89);
   font-weight: bolder;
   font-size: larger;
   height: 60px;
@@ -107,6 +122,7 @@ body{
 }
 
 #cl{
+  border: 1px solid rgba(107, 203, 184, 0.69);
   background-color: rgb(227, 96, 96);
   font-weight: bolder;
   font-size: larger;
