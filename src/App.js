@@ -47,6 +47,7 @@ function App(){
     }
     return (
       <div id="whole">
+        <h1 id="header">CALCULATOR</h1>
         <Ans val={out} />
         <Entry val={inp} fun={changeInp}/>
         {/* <button onClick={setAns}>Click</button>
@@ -72,14 +73,17 @@ function App(){
                     <button class="ope" onClick={() => changeInp(inp + "-")}>-</button>
                 </div>
                 <div id="opes">
-                    <button class="ope" onClick={() => changeInp(inp + "*")}>X</button>
+                    <button class="ope" onClick={() => changeInp(inp + "x")}>X</button>
                     <button class="ope" onClick={() => changeInp(inp + "/")}>/</button>
                     <button id="eq">=</button>
                     <button id="dl" onClick={() => del()}>Del</button>
                 </div>
               </div>
           </div>
-          <button id="cl" onClick={() => cls()}>Clear</button>
+          <div style={{display: "flex",
+          justifyContent: "center"}}>
+            <button id="cl" onClick={() => cls()}>Clear</button>
+          </div>
         </div>
       </div>
     );
