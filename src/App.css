@@ -1,6 +1,6 @@
 /* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +26,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -35,8 +35,31 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
+.Link{
+  color: rgb(197, 216, 23);
+  margin: 10px 10px 10px 10px;
+  font-size: 25px;
+}
+
+.nav{
+  height: 25px;
+  text-align: right;
+}
+
+#about-tag-cont{
+  text-align: center;
+}
+
+#about-header{
+  color: rgb(217, 136, 48);
+  /* font-size: 60px; */
+}
+
+#about-tag{
+  color: rgb(83, 83, 236);
+}
 
 button:hover{
   transform: scale(1.1, 1.1);
@@ -49,7 +72,6 @@ button:active{
 #header{
   color: rgb(217, 136, 48);
   text-align: center;
-  font-size: 60px;
 }
 
 Ans{
@@ -58,6 +80,7 @@ Ans{
 
 body{
   background-color: black;
+  color: aliceblue;
 }
 
 
@@ -121,12 +144,17 @@ body{
   height: 280px;
 }
 
+/* #cl-cont{
+  text-align: center;
+  width: 448px;
+} */
+
 #cl{
   border: 1px solid rgba(107, 203, 184, 0.69);
   background-color: rgb(227, 96, 96);
   font-weight: bolder;
   font-size: larger;
-  width: 432px;
+  width: 442px;   /*432*/
   height: 60px;
   border-radius: 10px;
   margin: 8px 8px 8px 16px;
